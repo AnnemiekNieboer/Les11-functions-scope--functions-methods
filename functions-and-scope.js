@@ -46,7 +46,7 @@ console.log(cumLaudeList.length);
 // cumLaude([8, 9, 4, 6, 10]) geeft 3
 
 function cumLaude(gradeList) {
-    const cumLaudeList = [];
+    let cumLaudeList = [];
     for (let i = 0; i < gradeList.length; i++) {
         if (gradeList[i] >= 8)  {
             cumLaudeList.push(gradeList[i]);
